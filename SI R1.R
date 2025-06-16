@@ -199,7 +199,7 @@ g_UA = ggplot(freq_table_UA, aes(x = Year, y = Proportion,
   scale_colour_manual(values = c(Economy = '#5282d6',
                                  Food = '#a1d846',
                                  Social = '#B364D2',
-                                 Environment = '#fa7346', 
+                                 Environment = '#ffa624', 
                                  Health = '#c6361a', 
                                  Urbanism = '#009e73')) + 
   ylim(0, 50)
@@ -262,7 +262,7 @@ g_CG = ggplot(freq_table_CG, aes(x = Year, y = Proportion,
   scale_colour_manual(values = c(Economy = '#5282d6',
                                  Food = '#a1d846',
                                  Social = '#B364D2',
-                                 Environment = '#fa7346', 
+                                 Environment = '#ffa624', 
                                  Health = '#c6361a', 
                                  Urbanism = '#009e73')) + 
   ylim(0, 50) 
